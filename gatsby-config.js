@@ -31,8 +31,8 @@ module.exports = {
       resolve: "gatsby-source-wordpress",
       options: {
         minimizeDeprecationNotice: true,
-        baseUrl: "gatsby-wordpress-course.local",
-        protocol: "http",
+        baseUrl: "https://wordpress-409224-1430724.cloudwaysapps.com/",
+        protocol: "https",
         hostingWPCOM: false,
         useACF: false,
         verboseOutput: false,
@@ -46,6 +46,7 @@ module.exports = {
           "**/tags",
           "**/taxonomies",
           "**/users",
+          "**/menus",
         ],
       },
     },
